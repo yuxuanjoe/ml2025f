@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      我先透過Colab下載並上傳資料集到雲端，再使用3D U-Net模型進行訓練，成功產生權重檔並下載保存。接著，我依照步驟掛載Google Drive、設定推論環境，使用訓練好的權重對測試資料進行推論，最終生成.nii.gz檔並打包成zip上傳至競賽網站。完成全部流程後，我不僅熟悉了醫學影像分割的步驟，也加深了對深度學習模型推論過程的理解，看到推論結果順利產出讓我非常有成就感。
     </div>
   </div>
 
@@ -169,12 +169,12 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 描述</td>
         </tr>
@@ -184,7 +184,7 @@
           <td>Strong baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,9 +196,18 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <!-- <iframe width="100%" height="560" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+      <table>
+        <tr>
+          <td> Simple Baseline 圖片
+          <img src="simple.png" width="100%" height="560">
+        </tr>
+        <tr>
+          <td> Medium Baseline 圖片
+          <img src="medium.png" width="100%" height="560">
+        </tr>
+      </table>
     </div>
   </div>
 
